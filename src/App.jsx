@@ -30,9 +30,9 @@ function App() {
       <div className="content-grid">
         <div className="card gradient-card">
           <h2>✅ Pipeline Status</h2>
-          <div className="status-badge success">
+          <div className="status-badge failed">
             <span className="pulse-dot"></span>
-            Deployed Successfully
+            Deployed Failed
           </div>
           <p className="timestamp">
             Last Updated: {currentTime.toLocaleTimeString('en-IN', { 
